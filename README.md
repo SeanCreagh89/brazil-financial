@@ -1,3 +1,2 @@
 # brazil-financial
-
-Custom theme developed for Brazil Financial
+Custom WordPress theme developed for Brazil Financial.
