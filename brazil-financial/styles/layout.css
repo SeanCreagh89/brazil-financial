@@ -1,0 +1,154 @@
+/*
+
+	Theme Name: Brazil Financial
+	Author: Sean Creagh
+	Description: Brazil Financial Layout
+	Version: 1.0
+
+*/
+
+
+
+/* --- CSS Reset --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+html, body, header, div, nav, ul, ol, li, h1, h2, h3, h4, h5, h6, p, span, strong, b, i, a, time, form, label, input, textarea, button, iframe, footer { font: inherit; font-size: 100%; text-decoration: none; margin: 0; padding: 0; border: 0; outline: 0; vertical-align: top; }
+
+
+
+/* --- Default Theme Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Default Container Elements Styles --- */
+html, body, header, #Content, footer { width: 100%; display: block; }
+.clearfix:after { content: "."; height: 0; margin: 0; padding: 0; display: block; visibility: hidden; clear: both; }
+.remove-spacing { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* --- Defaut Image Elements Styles --- */
+img { width: 100%; height: auto; display: block; }
+
+/* --- Default Icon (Italic) Styles --- */
+i[class^="icon-"] { width: 16px; height: 16px; margin-right: 10px; display: inline-block; }
+
+
+
+/* --- Theme Header Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Header | #Top-bar Styles --- */
+
+#Top-bar.wrapper { width: 100%; padding: 30px 0; }
+#Top-bar .container { width: 100%; max-width: 1170px; height: 42px; padding: 0 15px; margin: 0 auto; }
+#Top-bar .container #Theme-identity { width: 294px; height: 42px; float: left; }
+#Top-bar .container #Header-widgets { width: 770px; height: 100%; float: right; }
+#Top-bar .container #Header-widgets .widgets { width: 33.33%; padding: 0 30px; float: left; }
+#Top-bar .container #Header-widgets .widgets .widget_text { list-style: none; }
+#Top-bar .container #Header-widgets .widgets .widget_text a,
+#Top-bar .container #Header-widgets .widgets .widget_text p { font-size: 16px; display: block; }
+#Top-bar .container #Header-widgets .widgets .widget_text a:first-of-type,
+#Top-bar .container #Header-widgets .widgets .widget_text p:first-of-type { font-weight: bold; }
+
+/* --- Header | #Navigation-bar (#Navigation) Styles --- */
+
+#Navigation-bar.wrapper { width: 100%; position: relative; }
+#Navigation-bar .container { width: 100%; max-width: 1170px; margin: 0 auto; padding: 0 15px; }
+#Navigation-bar .container #Navigation { float: left; }
+#Navigation-bar .container #Navigation .menu > .menu-item { list-style: none; padding: 0 20px; float: left; }
+#Navigation-bar .container #Navigation .menu > .menu-item:first-of-type { padding-left: 0; }
+#Navigation-bar .container #Navigation .menu > .menu-item:last-of-type { padding-right: 0; }
+#Navigation-bar .container #Navigation .menu > .menu-item > a { font-size: 18px; line-height: 70px; }
+
+/* --- Header | #Navigation .sub-menu Styles --- */
+
+#Navigation-bar .container #Navigation .menu > .menu-item-has-children { position: relative; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu { font-size: 16px; line-height: 40px; width: 230px; margin: 0; border-radius: 5px; position: absolute; top: 150px; left: 0; z-index: 99; opacity: 0; visibility: hidden; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu > li { width: 100%; margin: 0; padding: 0; display: block; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu > li:first-of-type { border-radius: 5px 5px 0 0; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu > li:last-of-type { border-radius: 0 0 5px 5px; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu > li a { font-size: 16px; line-height: 40px; padding: 0 20px; display: block; position: relative; z-index: 2; }
+
+/* --- Header | #Navigation-bar (#Navimobile) Styles --- */
+
+#Navigation-bar .container #Navimobile { width: 44px; height: 34px; padding: 18px 0; display: none; float: left; }
+#Navigation-bar .container #Navimobile #navicon { padding: 9px 10px; border: 1px solid transparent; border-radius: 4px; display: block; cursor: pointer; }
+#Navigation-bar .container #Navimobile #navicon .navicon-bar { width: 22px; height: 2px; margin-top: 4px; border-radius: 1px; display: block; }
+#Navigation-bar .container #Navimobile #navicon .navicon-bar:first-of-type { margin-top: 0; }
+#Navigation-bar .container #Navimobile #navimenu { width: 100%; margin-left: -15px; display: none; position: absolute; top: 100%; z-index: 2; }
+#Navigation-bar .container #Navimobile #navimenu ul { width: 100%; list-style: none; display: block; }
+#Navigation-bar .container #Navimobile #navimenu ul li { width: 100%; border-top: 1px solid; }
+#Navigation-bar .container #Navimobile #navimenu ul li a { font-size: 14px; line-height: 30px; width: 100%; padding: 0 15px; display: block; }
+#Navigation-bar .container #Navimobile #navimenu ul .menu-item-has-children > a { position: relative; }
+#Navigation-bar .container #Navimobile #navimenu ul .menu-item-has-children > a:after { text-align: center; line-height: 20px; width: 20px; margin: 5px 15px 5px; position: absolute; right: 0; }
+
+/* --- Header | #Navimobile .sub-menu Styles --- */
+
+#Navigation-bar .container #Navimobile #navimenu .menu > .menu-item > .sub-menu { display: none; position: relative; z-index: 1; }
+#Navigation-bar .container #Navimobile #navimenu .menu > .menu-item > .sub-menu > li a { padding: 0 30px; }
+
+/* --- Header | #Search-widget Styles --- */
+
+#Navigation-bar .container #Search-widget { width: 340px; height: 40px; margin: 15px 0; float: right; }
+#Navigation-bar .container #Search-widget .widget_search { list-style: none; position: relative; }
+#Navigation-bar .container #Search-widget .widget_search .search-field { font-size: 18px; line-height: 36px; width: 100%; height: 40px; padding: 0 30px 0 15px; border: 2px solid; border-radius: 20px; }
+#Navigation-bar .container #Search-widget .widget_search .search-submit { text-align: center; line-height: 40px; width: 40px; position: absolute; top: 0; right: 0; }
+#Navigation-bar .container #Search-widget .widget_search .search-submit i { margin-right: 0; }
+
+/* --- Header | #Breadcrumbs-bar Styles --- */
+
+#Breadcrumbs-bar.wrapper { width: 100%; }
+#Breadcrumbs-bar.parallax { background-attachment: fixed !important; background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
+#Breadcrumbs-bar .container { width: 100%; max-width: 1170px; height: 140px; margin: 0 auto; padding: 0 15px; position: relative; }
+#Breadcrumbs-bar .container #Breadcrumbs { margin: 0 15px; border-radius: 5px 5px 0 0; position: absolute; left: 0; bottom: 0; }
+#Breadcrumbs-bar .container #Breadcrumbs li { line-height: 50px; list-style: none; float: left; }
+#Breadcrumbs-bar .container #Breadcrumbs li:not(.separator) { padding: 0 15px; }
+#Breadcrumbs-bar .container #Breadcrumbs li a, #Breadcrumbs-bar .container #Breadcrumbs li span { font-size: 12px; padding: 0 15px; display: block; }
+#Breadcrumbs-bar .container #Breadcrumb-widget { height: 50px; margin: 45px 0; float: right; }
+#Breadcrumbs-bar .container #Breadcrumb-widget li { list-style: none; }
+#Breadcrumbs-bar .container #Breadcrumb-widget li a { font-size: 18px; text-align: center; line-height: 48px; padding: 0 35px; border: 1px solid; border-radius: 5px; display: inline-block; vertical-align: middle; }
+
+
+
+/* --- Theme Content Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Content | Default --- */
+#Content { width: 100%; display: block; }
+#Content p { color: #5a5a5a; letter-spacing: normal; margin-bottom: 15px; display: block; }
+#Content a { color: #2585fb; letter-spacing: normal; }
+#Content a:hover { text-decoration: underline; }
+
+#Content #Front-page.container { width: 100%; margin: 0 auto; display: block; }
+#Content #Page.container { width: 100%; max-width: 1170px; margin: 0 auto; padding: 50px 15px; display: block; }
+
+
+
+/* --- Theme Footer Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Footer | #Footer-widgets-bar Styles --- */
+
+#Footer-widgets-bar.wrapper { width: 100%; }
+#Footer-widgets-bar .container { width: 100%; max-width: 1170px; margin: 0 auto; padding: 18px 15px; }
+#Footer-widgets-bar .container .full-width { text-align: center; width: 100%; max-width: 700px; margin: 0 auto; }
+#Footer-widgets-bar .container .half-width { width: 50%; float: left; }
+#Footer-widgets-bar .container .third-width { width: 33.33%; float: left; }
+#Footer-widgets-bar .container .quarter-width { width: 25%; float: left; }
+#Footer-widgets-bar .container div div.widget { width: 100%; padding: 0 20px; }
+#Footer-widgets-bar .container div .widget li { list-style: none; width: 100%; }
+#Footer-widgets-bar .container div .widget li div, #Footer-widgets-bar .container div .widget li div a { font-size: 16px; }
+#Footer-widgets-bar #Footer-divider { width: 100%; max-width: 500px; height: 1px; margin: 0 auto; }
+
+/* --- Footer | #Footnote-bar Styles --- */
+
+#Footnote-bar.wrapper { width: 100%; }
+#Footnote-bar .container { width: 100%; max-width: 1170px; margin: 0 auto; padding: 0 15px; }
+#Footnote-bar .container p { font-size: 16px; text-align: center; line-height: 50px; width: 100%; }
+#Footnote-bar .container p a { text-decoration: underline; }
+#Footnote-bar .container li { list-style: none; width: 100%; }
+#Footnote-bar .container li div { font-size: 16px; text-align: center; line-height: 50px; width: 100%; }
+#Footnote-bar .container li div a { text-decoration: underline; }

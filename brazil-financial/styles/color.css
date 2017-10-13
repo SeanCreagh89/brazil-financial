@@ -1,0 +1,132 @@
+/*
+
+	Theme Name: Brazil Financial
+	Author: Sean Creagh
+	Description: Brazil Financial Default Color Palette
+	Version: 1.0
+
+*/
+
+
+
+/* --- Timed Animations --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+a, img, input, .sub-menu {
+	-webkit-transition: all 0.3s ease-in-out !important;
+	-moz-transition: all 0.3s ease-in-out !important;
+	-ms-transition: all 0.3s ease-in-out !important;
+	-o-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
+}
+
+a {
+	-webkit-transition: color 0.3s, background 0.3s, border 0.3s;
+	-moz-transition: color 0.3s, background 0.3s, border 0.3s;
+	-ms-transition: color 0.3s, background 0.3s, border 0.3s;
+	-o-transition: color 0.3s, background 0.3s, border 0.3s;
+}
+
+a, img, input {
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+}
+
+.sub-menu {
+	-webkit-transition: opacity 0.2s, top 0.2s;
+	-moz-transition: opacity 0.2s, top 0.2s;
+	-ms-transition: opacity 0.2s, top 0.2s;
+	-o-transition: opacity 0.2s, top 0.2s;
+}
+
+
+
+/* --- Theme Header Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Header | #Top-bar Styles --- */
+
+#Top-bar.wrapper { background: #ffffff; }
+#Top-bar .container #Header-widgets .widgets .widget_text a,
+#Top-bar .container #Header-widgets .widgets .widget_text p { color: #5a5a5a; }
+#Top-bar .container #Header-widgets .widgets .widget_text a:hover { color: #2585fb; }
+
+/* --- Header | #Navigation-bar (#Navigation) Styles --- */
+
+#Navigation-bar.wrapper { background: #2585fb; }
+#Navigation-bar .container #Navigation .menu > .menu-item > a { color: #ffffff; }
+#Navigation-bar .container #Navigation .menu > .menu-item > a:hover { opacity: 0.50; }
+#Navigation-bar .container #Navigation .menu > .current-menu-item > a { opacity: 0.50; }
+#Navigation-bar .container #Navigation .menu > .current-page-ancestor > a { opacity: 0.50; }
+
+/* --- Header | #Navigation .sub-menu Styles --- */
+
+#Navigation-bar .container #Navigation .menu .menu-item-has-children:hover .sub-menu { top: 70px; opacity: 1; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu { background: #ffffff; -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.20); box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.20); }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu > li a { color: #5a5a5a; }
+#Navigation-bar .container #Navigation .menu > .menu-item > .sub-menu > li a:hover { background: #f4f4f4; }
+.current-page-ancestor > .sub-menu > .current-menu-item > a { background: #f4f4f4; }
+
+/* --- Header | #Navigation-bar (#Navimobile) Styles --- */
+
+#Navigation-bar .container #Navimobile #navicon, #Navigation-bar .container #Navimobile #navimenu { background: #ffffff; }
+#Navigation-bar .container #Navimobile #navicon .navicon-bar { background: #2585fb; }
+#Navigation-bar .container #Navimobile #navimenu ul li { border-color: #dddddd; }
+#Navigation-bar .container #Navimobile #navimenu ul li a { color: #5a5a5a; }
+#Navigation-bar .container #Navimobile #navimenu ul .menu-item-has-children > a:after { color: #ffffff; background: #2585fb; }
+
+/* --- Header | #Search-widget Styles --- */
+
+#Navigation-bar .container #Search-widget .widget_search .search-field { color: #ffffff; background: transparent; border-color: rgba(255, 255, 255, 0.50); }
+#Navigation-bar .container #Search-widget .widget_search .search-field::-webkit-input-placeholder { color: #ffffff }
+#Navigation-bar .container #Search-widget .widget_search .search-field::-moz-input-placeholder { color: #ffffff }
+#Navigation-bar .container #Search-widget .widget_search .search-field::-ms-input-placeholder { color: #ffffff }
+#Navigation-bar .container #Search-widget .widget_search .search-field::-o-input-placeholder { color: #ffffff }
+#Navigation-bar .container #Search-widget .widget_search .search-field:focus::-webkit-input-placeholder { opacity: 0.50; }
+#Navigation-bar .container #Search-widget .widget_search .search-field:focus::-moz-input-placeholder { opacity: 0.50; }
+#Navigation-bar .container #Search-widget .widget_search .search-field:focus::-ms-input-placeholder { opacity: 0.50; }
+#Navigation-bar .container #Search-widget .widget_search .search-field:focus::-o-input-placeholder { opacity: 0.50; }
+#Navigation-bar .container #Search-widget .widget_search .search-submit { color: #ffffff; background: transparent; }
+
+/* --- Header | #Breadcrumbs-bar Styles --- */
+
+#Breadcrumbs-bar.wrapper { background: #e3e3e3; }
+#Breadcrumbs-bar .container #Breadcrumbs { background: #ffffff; }
+#Breadcrumbs-bar .container #Breadcrumbs li, #Breadcrumbs-bar .container #Breadcrumbs li a { color: #5a5a5a; }
+#Breadcrumbs-bar .container #Breadcrumbs li span, #Breadcrumbs-bar .container #Breadcrumbs li a:hover { color: #2585fb; }
+#Breadcrumbs-bar .container #Breadcrumb-widget li a { color: #ffffff; background: transparent; border-color: #ffffff; }
+#Breadcrumbs-bar .container #Breadcrumb-widget li a:hover { background: #2585fb; border-color: #2585fb; }
+
+
+
+/* --- Theme Content Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Content | Default --- */
+#Content p { color: #5a5a5a; }
+#Content a { color: #2585fb; }
+#Content a:hover { text-decoration: underline; }
+
+
+
+/* --- Theme Footer Styles --- */
+
+/* --- ******************** ******************** ******************** --- */
+
+/* --- Footer | #Footnote-bar Styles --- */
+
+#Footer-widgets-bar.wrapper { background: #ffffff; }
+#Footer-widgets-bar .container div .widget li div, #Footer-widgets-bar .container div .widget li div a { color: #5a5a5a; }
+#Footer-widgets-bar .container div .widget li div a:hover { color: #2585fb; }
+#Footer-widgets-bar #Footer-divider { background: #e3e3e3; }
+
+/* --- Footer | #Footnote-bar Styles --- */
+#Footnote-bar.wrapper { background: #ffffff; }
+#Footnote-bar .container p, #Footnote-bar .container p a,
+#Footnote-bar .container li div, #Footnote-bar .container li div a { color: #5a5a5a; }
+#Footnote-bar .container p a:hover, #Footnote-bar .container li div a:hover { color: #2585fb; }
